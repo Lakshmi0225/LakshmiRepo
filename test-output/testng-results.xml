@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[== DATABASE CONNECTION==]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser has launched]]>
+    </line>
+    <line>
+      <![CDATA[Launch browser]]>
+    </line>
+    <line>
+      <![CDATA[User gets login to the app successfully]]>
+    </line>
+    <line>
+      <![CDATA[== ORGANIZATION HAS BEEN CREATED SUCCESSFULLY ==]]>
+    </line>
+    <line>
+      <![CDATA[User gets logout from the application successfully]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[== DATABASE DISCONNECTION==]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-13T17:31:34 IST" name="Default suite" finished-at="2024-08-13T17:31:50 IST" duration-ms="16197">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T17:31:34 IST" name="Default test" finished-at="2024-08-13T17:31:50 IST" duration-ms="16197">
+      <class name="Examples.organizationTest">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:Examples.organizationTest@4310d43]" started-at="2024-08-13T17:31:34 IST" name="bsconfig" finished-at="2024-08-13T17:31:34 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[== DATABASE CONNECTION==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:Examples.organizationTest@4310d43]" started-at="2024-08-13T17:31:34 IST" name="bcconfig" finished-at="2024-08-13T17:31:37 IST" duration-ms="3795" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser has launched]]>
+            </line>
+            <line>
+              <![CDATA[Launch browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="LoginToAPP()[pri:0, instance:Examples.organizationTest@4310d43]" started-at="2024-08-13T17:31:37 IST" name="LoginToAPP" finished-at="2024-08-13T17:31:40 IST" duration-ms="2733" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User gets login to the app successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginToAPP -->
+        <test-method signature="CreateOrg()[pri:0, instance:Examples.organizationTest@4310d43]" started-at="2024-08-13T17:31:40 IST" name="CreateOrg" finished-at="2024-08-13T17:31:48 IST" duration-ms="7984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[== ORGANIZATION HAS BEEN CREATED SUCCESSFULLY ==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateOrg -->
+        <test-method is-config="true" signature="logoutFromapp()[pri:0, instance:Examples.organizationTest@4310d43]" started-at="2024-08-13T17:31:48 IST" name="logoutFromapp" finished-at="2024-08-13T17:31:49 IST" duration-ms="1294" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User gets logout from the application successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromapp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Examples.organizationTest@4310d43]" started-at="2024-08-13T17:31:49 IST" name="tearDown" finished-at="2024-08-13T17:31:50 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:Examples.organizationTest@4310d43]" started-at="2024-08-13T17:31:50 IST" name="asconfig" finished-at="2024-08-13T17:31:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[== DATABASE DISCONNECTION==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asconfig -->
+      </class> <!-- Examples.organizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
